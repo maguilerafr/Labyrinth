@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.newlabyrinth.GameTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.032 sec <<< FAILURE!
+com.mycompany.newlabyrinth.GameTest.testGameMovement()  Time elapsed: 0.015 sec  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index -1 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:359)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at com.mycompany.newlabyrinth.Game.gameMovement(Game.java:117)
+	at com.mycompany.newlabyrinth.GameTest.testGameMovement(GameTest.java:55)
+
