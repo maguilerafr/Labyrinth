@@ -127,7 +127,9 @@ public class Game {
             route.remove(currentPos);
             print();
             System.out.println("");
-            System.out.println("He ganao, pringao");
+            System.out.println("¡Lo he conseguido!");
+            System.out.println("");
+            System.out.println("Impresión de la ruta del laberinto aislada:");
 
         }
 
