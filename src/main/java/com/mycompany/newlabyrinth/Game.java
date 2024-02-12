@@ -12,9 +12,7 @@ public class Game {
     ArrayList<Position> route = new ArrayList<>();
 
     public ArrayList<String[]> readFromFile() {
-        String file = "C:\\Users\\loloa\\Escritorio"
-                + "\\Máster Programación y Desarrollo de Aplicaciones"
-                + "\\Introducción a la programación\\laberintos\\lab2\\laberinto1.txt";
+        String file = "URL ruta del archivo local";
 
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(
                 new FileInputStream(file), "UTF-8"))) {
